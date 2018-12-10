@@ -1,0 +1,41 @@
+<div class="formContainer landscape">
+
+    <form action="/consultation.php" method="POST">
+        <input type=hidden name="company" value="1">
+        <input type=hidden name="sourceForm" value="{{form-source-inline}}">
+        <input type=hidden name="product" value="Invisalign">
+        <input type="hidden" name="treatment" value="3"/>
+        [!trackingFields!]
+        <div class="form-fields">
+            <div class="col-fields">
+                <input type="text" class="form-control form-control-lg"
+                       name="first_name" id="first_name1"
+                       placeholder="FIRST NAME" required/>
+            </div>
+            <div class="col-fields">
+                <input type="text" class="form-control form-control-lg" name="last_name"
+                       id="last_name1"
+                       placeholder="SECOND NAME" required/>
+            </div>
+            <div class="col-fields">
+                <input type="text" class="form-control form-control-lg" name="phone"
+                       placeholder="PHONE" required/>
+            </div>
+            <div class="col-fields">
+                <input type="text" class="form-control form-control-lg" name="email"
+                       placeholder="EMAIL" required/>
+            </div>
+            <div class="col-fields">
+                <input type="text" class="form-control form-control-lg" name="postcode"
+                       placeholder="POSTCODE" required/>
+            </div>
+            <div class="col-fields">
+                <button type="submit" class="submit-btn btn full form-control-lg"
+                        name="submitE" value="BOOK NOW">BOOK <strong>NOW</strong>
+                </button>
+            </div>
+
+        </div>
+    </form>
+
+</div>

@@ -1,5 +1,6 @@
 
-## Finest Dental - Dental Implants
+
+## Finest Dental Landing Pages SASS,GULP & Panini Templates:
 
 1.	` cd `  into the finest-dental and run ` npm install`  in your terminal - this command installs packages listed in the package.json file and any packages that it depends on. Packages are installed in the node_modules directory. 
 a.	Please do not modifiy anything in the `node_modules directory`. Note: the node_modules directory is not kept in source control. 

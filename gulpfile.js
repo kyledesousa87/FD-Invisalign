@@ -171,16 +171,16 @@ gulp.task('fontAwesome', function () {
 
 // Concatenating js files
 gulp.task('scripts', function () {
-    // jQuery first, then Popper.js, then Bootstrap JS, then other JS libraries, and last app.js
+    // jQuery first, then Popper.js, then Bootstrap JS, then other JS libraries, and last app-invsalign.js
     return gulp.src([
             'src/js/vendors/jquery.min.js', 
             'src/js/vendors/popper.min.js', 
             'src/js/vendors/bootstrap.min.js',
             'src/js/vendors/owl.carousel.js',
-            'src/js/app.js'
+            'src/js/app-invsalign.js'
         ])
         .pipe(sourcemaps.init())
-        .pipe(concat('app.js'))
+        .pipe(concat('app-invsalign.js'))
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('dist/js/'))
         .pipe(browserSync.stream());
